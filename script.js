@@ -159,3 +159,22 @@ console.log(foundLastIndex); //returns 3
 console.log(hamstersWithAInTheirName); //returns "Fluffball", "Aurora"
 */
 
+
+
+/*
+MAP
+Calls a function, performs it, returns array of the results.
+
+function lengthOfString(string) {
+    return string.length;
+}
+
+
+const hazelNicknames = ["David the sinful lizard", "Mary", "Sweet Randall", "Bagel", "Goozel Sweetvini"];
+
+const hazelNicknameLengths = hazelNicknames.map(lengthOfString);
+
+console.log(hazelNicknames); //"David the sinful lizard", "Mary", "Sweet Randall", "Bagel", "Goozel Sweetvini"
+
+console.log(hazelNicknameLengths); //23, 4, 13, 5, 16
+*/
