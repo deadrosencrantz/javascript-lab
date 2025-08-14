@@ -15,3 +15,6 @@ console.log(pets); //returns "dog", "rabbit", "hamster", "goldfish", "pigeon"
 pets.unshift('cat'); //add to start of list
 
 console.log(pets); //returns "cat", "dog", "rabbit", "hamster", "goldfish", "pigeon"
+
+//note: shift and push also return the value they add, if you're into that sort of thing.
+
