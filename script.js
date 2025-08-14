@@ -92,8 +92,31 @@ horses.forEach(alert); //alerts "clydesdale", "arabian", "mustang", "marwari" in
 horses.forEach((item, index, array) => {
     alert(`Here we are in the horses array, consising of the following: ${array}.  We find ${item} at index ${index}!`)
 });
-//returns Here we are in the horses array, consising of the following: 
+//alerts Here we are in the horses array, consising of the following: 
 // clydesdale,arabian,mustang,marwari.  
 // We find clydesdale at index 0!
 //...and so on for each item.
 */
+
+
+
+/*
+INDEXOF, LASTINDEXOF, INCLUDES 
+These don't seem complicated but you never know. 
+indexof(item, from) returns index of the item, starting from a specific index if you want. strict. -1 if not found.
+lastindexof: same as above but searches right to left
+includes(item, from): searches to check if item is there and returns true or false.
+:/
+const zooAnimals = ["pygmy hippo", "lemur", "sun bear", "meerkat", "tiger", "sun bear"];
+
+alert(zooAnimals.indexOf("tiger")); //alerts 4
+
+alert(zooAnimals.indexOf("sun bear")); //alerts 2
+
+alert(zooAnimals.indexOf("sun bear", 3)); //alerts 5
+
+alert(zooAnimals.lastIndexOf("sun bear")); //alerts 5
+
+alert(zooAnimals.includes("pygmy hippo")); //alerts true
+*/
+
