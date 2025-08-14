@@ -1,4 +1,5 @@
-/* PUSH, POP, SHIFT, UNSHIFT
+/* 
+PUSH, POP, SHIFT, UNSHIFT
 
 const pets = ['cat', 'dog', 'rabbit', 'hamster', 'goldfish', 'pigeon'];
 
@@ -18,10 +19,13 @@ pets.unshift('cat'); //add to start of list
 
 console.log(pets); //returns "cat", "dog", "rabbit", "hamster", "goldfish", "pigeon"
 
-//note: shift and push also return the value they add, if you're into that sort of thing. */
+//note: shift and push also return the value they add, if you're into that sort of thing. 
+*/
 
 
-/*SPLICE
+
+/*
+SPLICE
 This stupid thing can do a lot. Let's focus on how it can add, remove and replace elements.
 Negative indices are fine in this and other array methods.
 Splice edits the original string and I believe it alerts the things it removes, or 
@@ -44,5 +48,14 @@ console.log(dogs); //returns "labrador", "lhasa apso", "chihuahua", "dalmatian",
 //REPLACE
 dogs.splice(0, 2, "beagle", "borzoi", "xoloitzcuintli", "old english sheepdog") //at index 0, delete 2 things and add these
 
-console.log(dogs) 
-//returns "beagle", "borzoi", "xoloitzcuintli", "old english sheepdog", "chihuahua", "dalmatian", "basset hound" */
+console.log(dogs); 
+//returns "beagle", "borzoi", "xoloitzcuintli", "old english sheepdog", "chihuahua", "dalmatian", "basset hound" 
+*/
+
+
+
+/*
+SLICE
+Infuriatingly similar name to the above. "Simpler" but in a mind-numbingly obtuse kind of way. Let's see.*/
+
+const rabbits = ["holland lop", "flemish giant", "mini rex", "lionhead", "angora"];
