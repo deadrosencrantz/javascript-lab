@@ -80,6 +80,8 @@ console.log(hamsters); //returns "european hamster", "syrian hamster", "roborovs
 // //"campbell's dwarf hamster", "chinese hamster"
 */
 
+
+
 /*
 FOREACH
 I hate this one. I mean, it's fine, but still. Just repeats the same function for everything in the array.
