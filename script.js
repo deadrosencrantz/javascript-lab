@@ -265,3 +265,18 @@ console.log(addEmUp); //312
 
 console.log(countBackwards); //48 44 40 36 32 28 24 20 16 12 8 4 
 */
+
+
+
+/*
+ISARRAY
+Allegedly, arrays are objects or something, so you need a special way to check.
+
+const languages = ["Spanish", "French", "Italian", "Swahili", "BSL", "Gaelic", "Japanese", "Irish", "Catalan"];
+
+const bestLanguage = "Gaelic";
+
+alert(Array.isArray(languages)); //alerts true
+
+alert(Array.isArray(bestLanguage)); //alerts false
+*/
