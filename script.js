@@ -207,3 +207,16 @@ console.log(turtleNamesQuestionablySorted); //this outputs same as below so mayb
 
 console.log(sortedTurtleNames); //"Àdhamh", "Gregor", "Iona", "Iòna", "Kicks", "Öslo", "Wesley", "Zebedee"
 */
+
+
+
+/*
+REVERSE
+Straightforward and honest.
+
+const squid = ["Benjamin", "Kerri", "Niko", "Sarah"];
+
+squid.reverse();
+
+console.log(squid); // "Sarah", "Niko", "Kerri", "Benjamin"
+*/
