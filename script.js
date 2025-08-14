@@ -67,3 +67,33 @@ let bunnyShortList = rabbits.slice(1, 4) //new array created including 1 (flemis
 console.log(bunnyShortList); //returns "flemish giant", "mini rex", "lionhead"
 */
 
+
+
+/*
+CONCAT
+This one basically takes an array and makes a new array adding new stuff.
+const baseHamsters = ["european hamster", "syrian hamster"];
+
+const hamsters = baseHamsters.concat(["roborovski dwarf hamster", "campbell's dwarf hamster", "chinese hamster"]);
+
+console.log(hamsters); //returns "european hamster", "syrian hamster", "roborovski dwarf hamster", 
+// //"campbell's dwarf hamster", "chinese hamster"
+*/
+
+/*
+FOREACH
+I hate this one. I mean, it's fine, but still. Just repeats the same function for everything in the array.
+Syntax is .forEach(item, index, array), with the bracketed arguments being optional.
+If the function has a result I believe it is discarded.
+const horses = ["clydesdale", "arabian", "mustang", "marwari"]
+
+horses.forEach(alert); //alerts "clydesdale", "arabian", "mustang", "marwari" in that order
+
+horses.forEach((item, index, array) => {
+    alert(`Here we are in the horses array, consising of the following: ${array}.  We find ${item} at index ${index}!`)
+});
+//returns Here we are in the horses array, consising of the following: 
+// clydesdale,arabian,mustang,marwari.  
+// We find clydesdale at index 0!
+//...and so on for each item.
+*/
