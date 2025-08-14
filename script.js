@@ -178,3 +178,32 @@ console.log(hazelNicknames); //"David the sinful lizard", "Mary", "Sweet Randall
 
 console.log(hazelNicknameLengths); //23, 4, 13, 5, 16
 */
+
+/*
+SORT & LOCALECOMPARE
+These ones are horrid.
+Sort wants to sort by alphabetical order, so we literally have to call a custom function to deal with it for numbers.
+
+let turtleAges = [32, 4, 16, 40, 8, 12, 44, 24, 20];
+
+let turtleNames = ["Wesley", "Kicks", "Iona", "Gregor", "Iòna", "Àdhamh", "Öslo", "Zebedee"];
+
+function compareNumeric(a, b) { //this is a numeric sorting algorithm
+  if (a > b) return 1;
+  if (a == b) return 0;
+  if (a < b) return -1;
+}
+
+let sortedTurtleAges = turtleAges.sort(compareNumeric);
+
+let turtleNamesQuestionablySorted = turtleNames.sort( (a, b) => a > b ? 1 : -1);
+
+let sortedTurtleNames = turtleNames.sort( (a, b) => a.localeCompare(b) );
+
+console.log(sortedTurtleAges); //4, 8, 12, 16, 20, 24, 32, 40, 44
+
+console.log(turtleNamesQuestionablySorted); //this outputs same as below so maybe my source is wrong
+//or outdated or something?
+
+console.log(sortedTurtleNames); //"Àdhamh", "Gregor", "Iona", "Iòna", "Kicks", "Öslo", "Wesley", "Zebedee"
+*/
