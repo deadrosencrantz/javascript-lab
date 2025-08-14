@@ -237,3 +237,9 @@ let myPokemonTeamRunOn = myPokemonTeamString.join(" and ");
 
 console.log(myPokemonTeamRunOn);
 */
+
+
+/*
+REDUCE & REDUCERIGHT
+These guys do the same thing, but reduceRight goes from right to left.
+*/
