@@ -56,6 +56,14 @@ console.log(dogs);
 
 /*
 SLICE
-Infuriatingly similar name to the above. "Simpler" but in a mind-numbingly obtuse kind of way. Let's see.*/
+Infuriatingly similar name to the above. "Simpler" but in a mind-numbingly obtuse kind of way. Let's see.
+Returns a new array of all items from index start to end, not including end
+Calling without arguments just reproduces the array
 
 const rabbits = ["holland lop", "flemish giant", "mini rex", "lionhead", "angora"];
+
+let bunnyShortList = rabbits.slice(1, 4) //new array created including 1 (flemish giant) but excluding 4 (angora)
+
+console.log(bunnyShortList); //returns "flemish giant", "mini rex", "lionhead"
+*/
+
