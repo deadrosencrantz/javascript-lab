@@ -220,3 +220,20 @@ squid.reverse();
 
 console.log(squid); // "Sarah", "Niko", "Kerri", "Benjamin"
 */
+
+
+
+/*
+SPLIT & JOIN
+Split turns a string into an array using the given deliminator, or as individual letters with no deliminator.
+Join takes an array and turns it into a string using the given glue.
+let myPokemonTeam = "Sylveon, Raticate, Primarina, Wooloo, Venusaur, Meganium";
+
+let myPokemonTeamString = myPokemonTeam.split(", ");
+
+console.log(myPokemonTeamString); //"Sylveon", "Raticate", "Primarina", "Wooloo", "Venusaur", "Meganium"
+
+let myPokemonTeamRunOn = myPokemonTeamString.join(" and ");
+
+console.log(myPokemonTeamRunOn);
+*/
