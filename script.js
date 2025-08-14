@@ -126,13 +126,14 @@ alert(zooAnimals.includes("pygmy hippo")); //alerts true
 
 
 /*
-FIND, FINDINDEX, FINDLASTINDEX
+FIND, FINDINDEX, FINDLASTINDEX, FILTER
 I cannot tell you how much I fucking hate these ones, to be honest probably because I haven't done objects yet
 and the examples love to use them.
 Let's try to keep it simple.
 find gives you the first element that returns true on a called function. 
 findIndex gives you the index of said element
 findLastIndex but right to left
+filter is like if find returned an array of all the matching elements.
 
 const hamsterNames = ["Humphrey", "Powder Puff", "Fluffball", "Aurora", "Oswin"];
 
@@ -147,9 +148,14 @@ const foundIndex = hamsterNames.findIndex(containA);
 
 const foundLastIndex = hamsterNames.findLastIndex(containA);
 
+const hamstersWithAInTheirName = hamsterNames.filter(containA);
+
 console.log(found); //returns Fluffball
 
 console.log(foundIndex); //returns 2
 
 console.log(foundLastIndex); //returns 3
+
+console.log(hamstersWithAInTheirName); //returns "Fluffball", "Aurora"
 */
+
