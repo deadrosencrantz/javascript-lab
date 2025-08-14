@@ -108,6 +108,7 @@ These don't seem complicated but you never know.
 indexof(item, from) returns index of the item, starting from a specific index if you want. strict. -1 if not found.
 lastindexof: same as above but searches right to left
 includes(item, from): searches to check if item is there and returns true or false.
+includes can deal with NaN, the others can't
 :/
 const zooAnimals = ["pygmy hippo", "lemur", "sun bear", "meerkat", "tiger", "sun bear"];
 
@@ -122,3 +123,33 @@ alert(zooAnimals.lastIndexOf("sun bear")); //alerts 5
 alert(zooAnimals.includes("pygmy hippo")); //alerts true
 */
 
+
+
+/*
+FIND, FINDINDEX, FINDLASTINDEX
+I cannot tell you how much I fucking hate these ones, to be honest probably because I haven't done objects yet
+and the examples love to use them.
+Let's try to keep it simple.
+find gives you the first element that returns true on a called function. 
+findIndex gives you the index of said element
+findLastIndex but right to left
+
+const hamsterNames = ["Humphrey", "Powder Puff", "Fluffball", "Aurora", "Oswin"];
+
+function containA(string) {
+    let searchableString = string.toLowerCase(); //so we can see any A regardless of case
+    return (searchableString).includes ("a"); //does it have an A in it?
+}
+
+const found = hamsterNames.find(containA); //will check if items contain A and return first that does
+
+const foundIndex = hamsterNames.findIndex(containA);
+
+const foundLastIndex = hamsterNames.findLastIndex(containA);
+
+console.log(found); //returns Fluffball
+
+console.log(foundIndex); //returns 2
+
+console.log(foundLastIndex); //returns 3
+*/
