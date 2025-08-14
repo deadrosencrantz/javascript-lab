@@ -242,4 +242,26 @@ console.log(myPokemonTeamRunOn);
 /*
 REDUCE & REDUCERIGHT
 These guys do the same thing, but reduceRight goes from right to left.
+Kind of like running a loop. Tend to end with one value, but apparently not always.
+
+const fourTimesTable = [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48]
+
+const addEmUp = fourTimesTable.reduce((total, currentItem) => { 
+
+  return total + currentItem; //for each iteration it returns the total so far + current item
+
+}, 0); //starting value - optional. 0 for adding, 1 for multiplication. Obviously.
+
+const countBackwards = fourTimesTable.reduceRight((total, currentItem) => { 
+
+  return total + `${String(currentItem)} `;
+
+}, "");  //this one was experimental but see, we added to an empty string
+
+
+console.log(fourTimesTable); 
+
+console.log(addEmUp); //312
+
+console.log(countBackwards); //48 44 40 36 32 28 24 20 16 12 8 4 
 */
